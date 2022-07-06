@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(84, 230, 241);
+}
+header {
+  font-style: italic;
+  font-size: 25px;
+  text-align: center;
+}
+h1 {
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: white;
+}
+.container {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+ul {
+  list-style: none;
+  flex-basis: auto;
+}
+
+li {
+  background-color: rgb(205, 243, 92);
+  border-radius: 40px;
+  align-items: center;
+  /* flex: 50%; */
+  margin: auto;
+  width: 50%;
+  padding: 15px;
+}
+
+img {
+  width: 300px;
+  border-radius: 30px;
+}
+
+p {
+  /* font-weight: bold; */
+  font-size: 20px;
+}
+
+a:link {
+  color: blue;
+} /* Unvisited links */
+a:visited {
+  color: purple;
+} /* Visited links */
+a:hover {
+  background: rgb(11, 11, 11);
+} /* Hovered links */
+a:active {
+  color: red;
+} /* Active links */
